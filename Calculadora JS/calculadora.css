@@ -1,0 +1,83 @@
+.container{
+    display: flex;
+    justify-content: center;
+
+}
+
+.calc{
+    height: 500px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+#calculator-container{
+    background-color: black;
+}
+
+.calc form{
+    height: 100%;
+    width: 100%;
+    /* background-color: black; */
+    border-radius: 15px;
+}
+
+.calc input[type=textfield]{
+    position: relative;
+    height: 25%;
+    width: 100%;
+    cursor: default;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    padding: 0px;
+    text-align:end;
+    font-size: 50px;
+    border: 0;
+    outline: none;
+    background-color: black;
+    border-radius: 15px;
+}
+
+.calc input[type=button], input[type=reset]{
+    width: 20%;
+    cursor: pointer;
+    font-family: 'Roboto' sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    color: black;
+    padding: 18px;
+    margin: 5px;
+    border: 0;
+    border-radius: 100%;
+}
+
+.day-theme{
+    background-color: rgb(253, 149, 3);
+    color: white;
+}
+
+.gray{
+    background-color: rgb(51, 51, 51) !important;
+    color: white !important;
+}
+
+
+.toogle{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: rgb(253, 149, 3);
+    color: white;
+    text-align: center;
+    font-size: 10px;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: none;
+    margin: 10px;
+}
+
+.dark-theme {
+    background-color: rgb(253, 149, 3);
+    color: white;
+  }
+  
